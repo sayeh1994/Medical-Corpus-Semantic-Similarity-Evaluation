@@ -1,7 +1,6 @@
 import spacy
 import numpy as np
-nlp = spacy.load("en_core_web_md")
-# nlp = spacy.load("en_ner_bionlp13cg_md")
+nlp = spacy.load("en_ner_bionlp13cg_md")
 
 def check_negation(entity):
     negations = ['not', 'never', 'no', 'neither', 'none', 'nobody', 'nowhere', 'nothing', 'without', "don't", "can't", "won't", "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't", "shouldn't", "wouldn't", "couldn't", "doesn't", "didn't", "may not", "might not", "need not", "mustn't", "shall not", "will not", "ought not to", "nevermore", "rarely", "scarcely"]
