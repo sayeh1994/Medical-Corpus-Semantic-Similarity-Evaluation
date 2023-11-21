@@ -1,6 +1,5 @@
 import spacy
 import re
-# from Bio_Epidemiology_NER.bio_recognizer import ner_prediction
 import nltk
 
 nlp = spacy.load("en_core_sci_md")
