@@ -8,14 +8,14 @@ Download all the three python scripts ([EntityExtractorv2.py](EntityExtractorv2.
 
 You may need to install the dictionaries from Spacy and [Scispacy](https://allenai.github.io/scispacy/).
 
->> To install the dictionaries of [Scispacy](https://allenai.github.io/scispacy/):
+> To install the dictionaries of [Scispacy](https://allenai.github.io/scispacy/):
 
 ```
 pip install scispacy
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_md-0.5.3.tar.gz # en_core_sci_md
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bionlp13cg_md-0.5.3.tar.gz # en_ner_bionlp13cg_md
 ```
->> To install ``en_core_web_sm" dictionary from [Spacy](https://spacy.io/usage):
+> To install ``en_core_web_sm" dictionary from [Spacy](https://spacy.io/usage):
 
 ```
 pip install -U pip setuptools wheel
@@ -23,9 +23,9 @@ pip install -U spacy
 python -m spacy download en_core_web_sm
 ```
 
->> Nltk package is also required: pip install nltk
+> Nltk package is also required: pip install nltk
 
->> To evaluate the semantic similarity between "Reference_Text" and "Candidate_Text" try the following commands:
+To evaluate the semantic similarity between "Reference_Text" and "Candidate_Text" try the following commands:
 ```
 from EntityExtractorv2 import medical_term
 from SimMetric import sim_metric
