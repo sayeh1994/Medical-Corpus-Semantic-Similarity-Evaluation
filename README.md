@@ -1,2 +1,2 @@
-# Medical-Corpus-Semantic-Similarity-Evaluation
-Evaluating similarity of two medical text semantically.
+# Medical Corpus Semantic Similarity Evaluation
+Evaluating the similarity of two medical texts semantically.
