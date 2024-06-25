@@ -35,3 +35,17 @@ Candidate_entities = medical_term(Candidate_Text)
 
 semantic_score = sim_metric(Reference_entities, Candidate_entities)
 ```
+If you find this repository useful to your project please consider citing our paper in your future publication:
+```
+@conference{bioinformatics24,
+author={Sayeh Gholipour Picha and Dawood Al Chanti and Alice Caplier},
+title={Semantic Textual Similarity Assessment in Chest X-ray Reports Using a Domain-Specific Cosine-Based Metric},
+booktitle={Proceedings of the 17th International Joint Conference on Biomedical Engineering Systems and Technologies - Volume 1: BIOINFORMATICS},
+year={2024},
+pages={487-494},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0012429600003657},
+isbn={978-989-758-688-0},
+}
+```
