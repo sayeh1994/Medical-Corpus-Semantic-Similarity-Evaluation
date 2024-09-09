@@ -4,8 +4,10 @@ Medical language processing and deep learning techniques have emerged as critica
 
 # How to use
 
-Download all the three python scripts ([EntityExtractorv2.py](EntityExtractorv2.py), [SimilarityScorev2.py](SimilarityScorev2.py), and [SimMetric.py](SimMetric.py))
-
+Create the environment:
+```
+conda env create -f environment.yml
+```
 You may need to install the dictionaries from Spacy and [Scispacy](https://allenai.github.io/scispacy/).
 
 > To install the dictionaries of [Scispacy](https://allenai.github.io/scispacy/):
@@ -21,9 +23,8 @@ pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/e
 pip install -U pip setuptools wheel
 pip install -U spacy
 python -m spacy download en_core_web_sm
+python -m spacy download en-core-web-md
 ```
-
-> Nltk package is also required: pip install nltk
 
 To evaluate the semantic similarity between "Reference_Text" and "Candidate_Text" try the following commands:
 ```
