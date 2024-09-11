@@ -23,7 +23,7 @@ pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/e
 pip install -U pip setuptools wheel
 pip install -U spacy
 python -m spacy download en_core_web_sm
-python -m spacy download en-core-web-md
+python -m spacy download en_core_web_md
 ```
 
 To evaluate the semantic similarity between "Reference_Text" and "Candidate_Text" try the following commands:
